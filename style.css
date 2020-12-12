@@ -1,0 +1,90 @@
+/* immagine di sfondo centrata e adattata */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* container in trasparenza che racchiude le informazioni del noleggiato */
+.container {
+  width: 900px;
+  margin:30px auto 0;
+  background-color: #05040475;
+  border-radius: 15px;
+  padding: 100px;
+}
+
+/* intestazione logo  e titolo centrati */
+header, #title{
+  text-align: center;
+  color:#00dd00;
+  margin:5px;
+}
+
+/* dimensionamento logo header */
+#logo{
+  width: 20%;
+}
+
+/* Contenitore allineamento contenuto pagina: barra menù ed elenco monopattini disponibili */
+.content{
+  border: 0;
+  width: 900px;
+  margin:auto;
+}
+
+/* menù gestione noleggio centrato  */
+nav{
+  text-align:center;
+}
+
+/* sfondo menu */
+.menu{
+  width: auto;
+  margin:auto;
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+/* Bottoni menù inline */
+input{
+  display: inline-block;
+}
+
+/* Colore testo sezione monopattini e margine */
+.monopattino, div{
+  color: white;
+  margin-top: 5px;
+}
+
+/* Nome (titolo) monopattini disponibile - inline con checkbox */
+h2{
+  display: inline-block;
+  margin:0;
+  margin-top: 15px;
+}
+
+/* barra carica monopattino gino22 */
+.charge_gino22{
+  width: 300px;
+  background-color: #e5a31c;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* barra carica monopattino mike24 */
+.charge_mike24{
+  width: 500px;
+  background-color: #15d015;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* barra carica monopattino fede154 */
+.charge_fede154{
+  width: 100px;
+  background-color:#c02323;
+  padding: 12px;
+  border-radius: 5px;
+}
